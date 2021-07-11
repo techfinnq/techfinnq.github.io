@@ -5,7 +5,7 @@ author: "Chester"
 comments: true
 tags: Tale
 excerpt_separator: <!--more-->
-sticky: true
+sticky: false
 hidden: true
 ---
 

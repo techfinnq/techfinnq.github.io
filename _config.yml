@@ -38,3 +38,5 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus:       #
+
+# Custom settings
