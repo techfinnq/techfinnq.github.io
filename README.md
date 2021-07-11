@@ -1,1 +1,0 @@
-# techfinnq.github.io
