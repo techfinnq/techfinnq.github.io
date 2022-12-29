@@ -1,5 +1,5 @@
 ---
-title: First Writing
+title: 처음 써보기
 date: "2022-12-29T17:58:00.284Z"
 description: "첫번째 쓰기"
 ---
