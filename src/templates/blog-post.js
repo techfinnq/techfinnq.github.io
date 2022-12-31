@@ -19,8 +19,8 @@ const BlogPostTemplate = ({
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <h2 itemProp="headline">{post.frontmatter.title}</h2>
+          <p>{post.frontmatter.date} {post.frontmatter.author && `, by ${post.frontmatter.author}`}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -28,7 +28,7 @@ const BlogPostTemplate = ({
         />
         <hr />
         <footer>
-          <Bio />
+          {/* <Bio /> */}
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -91,6 +91,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        author
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
