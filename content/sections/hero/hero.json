@@ -1,22 +1,9 @@
 {
-  "intro": "Hej",
-  "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
-    "alt": "My Photo"
-  },
-  "image": {
-    "src": "../../images/waving-hand.png",
-    "alt": "Waving Hand Emoji"
-  },
-  "title": "I'm a Gatsby Starter",
+  "title": "Welcome Finnq TechBlog",
   "subtitle": {
     "prefix": "I do all the setup ",
     "highlight": "for you",
     "suffix": "."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-  "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
-  }
+  "description": "해당 블로그는 Finnq 의 기술 블로그 입니다."
 }

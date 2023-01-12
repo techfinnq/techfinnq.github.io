@@ -2,8 +2,8 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
+    "title": "Gatsby Starter for Portfolio Minimal123123",
+    "titleTemplate": "%s · Portfolio Minimal123",
     "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
     "author": "Konstantin Münster",
     "avatar": "../content/images/gatsby.png",
@@ -17,22 +17,14 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "Finnq TechBlog" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
+        { "label": "About Finnq", "url": "/about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Carrer", "url": "/features" }
       ],
-      "ctaButton": {
-        "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
-      },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
       ]
     },
     "featureToggles": {
